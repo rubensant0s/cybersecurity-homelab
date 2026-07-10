@@ -21,7 +21,7 @@ This repository documents the build and evolution of my personal cybersecurity h
 |---|---|
 | Type | Laptop repurposed as server |
 | Hypervisor | Proxmox VE 8.4.0 (bare-metal) |
-| Remote Access | Tailscale VPN (`100.82.62.60`) |
+| Remote Access | Tailscale VPN (`100.xx.xx.xx`) |
 
 ### Network Architecture
 
@@ -32,9 +32,9 @@ Internet
     │
  [pfSense VM] ← Firewall / Router / DHCP
     │
-  [vmbr1] — LAN bridge (192.168.100.0/24)
+  [vmbr1] — LAN bridge (192.168.xx.0/24)
     ├── Kali Linux       → 192.168.100.x (attacker)
-    ├── Metasploitable 2 → 192.168.100.5 (target)
+    ├── Metasploitable 2 → 192.168.100.x (target)
     └── Windows 11       → 192.168.100.x (victim/analyst)
 ```
 
