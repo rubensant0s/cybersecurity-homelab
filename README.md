@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity Homelab
 
-> Laboratório de cibersegurança construído sobre Proxmox VE com firewall pfSense, redes isoladas e acesso remoto seguro via Tailscale.
+> Cybersecurity lab built on Proxmox VE with pfSense firewall, isolated networks and secure remote access via Tailscale.
 
 ---
 
