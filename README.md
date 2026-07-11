@@ -43,7 +43,6 @@ Internet
 - Metasploitable 2 is firewall-blocked from internet access (pfSense rule)
 - All internal VMs communicate only through vmbr1
 - Proxmox management accessible remotely via Tailscale VPN
-- Laptop lid close disabled — server runs 24/7
 
 ---
 
